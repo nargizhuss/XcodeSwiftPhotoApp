@@ -51,7 +51,7 @@ extension LoginViewController: FUIAuthDelegate {
            // There was an error
            return
            }
-        // If this happens to be nil as there's no profile then it won't access the user's propertie
+        // If this happens to be nil as there's no profile then it won't access the user's property
         let user = authDataResult?.user
         
         // check if the user is nill
